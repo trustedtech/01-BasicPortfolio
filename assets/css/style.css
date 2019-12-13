@@ -1,5 +1,5 @@
 body {
-    background: url("background_tile.jpg") repeat;
+    background: url("../images/background_tile.jpg") repeat;
 
 }
 
@@ -10,9 +10,22 @@ header {
     border-bottom: double rgb(160,160,160)
 }
 
+nav {
+    float:right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 25px 15px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: darkgrey;
+}
+
 .page {
     width: 80%;
-    max-width: 1200px;
+    max-width: 960px;
     margin: auto;    
 }
 
@@ -26,3 +39,4 @@ header {
     padding: 15px;
 
 }
+
