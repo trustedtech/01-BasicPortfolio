@@ -1,0 +1,28 @@
+body {
+    background: url("background_tile.jpg") repeat;
+
+}
+
+header {
+    width: auto;
+    min-height: 40px;
+    background-color: rgb(245,245,245);
+    border-bottom: double rgb(160,160,160)
+}
+
+.page {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;    
+}
+
+.name-logo {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(0,51,153);
+    padding: 15px;
+
+}
