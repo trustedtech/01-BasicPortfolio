@@ -66,7 +66,7 @@ p {
     content: " ";
     display: block;
     clear: both;
-  }
+}
 
 .page {
     width: 80%;
@@ -89,4 +89,41 @@ p {
     margin-bottom: 50px;
     background-color: white;
     min-height: 300px;
+}
+
+label {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.2em;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1em;
+}
+
+textarea {
+    min-height: 140px;
+}
+
+input[type=submit] {
+    background-color: rgb(0,51,153);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1em;
+}
+
+input[type=submit]:hover {
+    background-color: cornflowerblue;
 }
